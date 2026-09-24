@@ -6,9 +6,9 @@ crear el Clean Room (eso lo descubren ustedes). Solo te da lo mínimo para arran
 
 ## 1. Carga tus datos
 
-1. Sube este repo como **Git folder** en tu workspace (Workspace → Create → Git folder → URL).
-2. Corre **[`cargar_datos.py`](cargar_datos.py)** → crea `banco.clean_room.clientes_banco`.
-3. Consulta **[`diccionario.md`](diccionario.md)** para entender cada campo.
+- Tus datos están en **[`datos/`](datos/)** (Parquet). **Súbelos a tu workspace como veas
+  conveniente** — descubran cómo cargarlos, es parte del reto.
+- Consulta **[`diccionario.md`](diccionario.md)** para entender cada campo.
 
 ## 2. Es un reto colaborativo
 
