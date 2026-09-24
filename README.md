@@ -20,6 +20,8 @@ La llave para unir a la misma persona entre empresas es **`id_cliente_hash`**.
 
 | Archivo | Para qué |
 |---|---|
+| [`datos/`](datos/) | Tus datos en **Parquet** (los cargas tú) |
+| [`cargar_datos.py`](cargar_datos.py) | Notebook que crea tu catálogo y carga las tablas |
 | [`reto.md`](reto.md) | Tu reto de negocio, entregables por nivel y criterios |
 | [`diccionario.md`](diccionario.md) | Tus datos (columna a columna) + glosario de negocio |
 | [`rubrica.md`](rubrica.md) | Cómo evalúa el jurado |
@@ -28,12 +30,14 @@ La llave para unir a la misma persona entre empresas es **`id_cliente_hash`**.
 
 ## Quick start
 
-1. Entra al **workspace (trial) de Banco** con el login compartido del organizador. **Tus datos
-   ya están cargados** en `banco.clean_room.clientes_banco`.
-2. Lee [`reto.md`](reto.md) y ten a mano [`diccionario.md`](diccionario.md).
-3. **Tu equipo arma el Clean Room** e invita a Deuna y Seguros para cruzar por
+1. Entra al **workspace (trial) de Banco** con el login compartido del organizador y **sube este
+   repo como Git folder** (Workspace → Create → Git folder → URL del repo).
+2. Corre **[`cargar_datos.py`](cargar_datos.py)**: crea tu catálogo y carga
+   `banco.clean_room.clientes_banco` desde `datos/` (una sola vez).
+3. Lee [`reto.md`](reto.md) y ten a mano [`diccionario.md`](diccionario.md).
+4. **Tu equipo arma el Clean Room** e invita a Deuna y Seguros para cruzar por
    `id_cliente_hash`. **No hay una guía paso a paso: descúbranlo** — es parte del reto.
-4. Construye tan alto como puedas en el *value stack*: dashboard → modelo → AI Functions →
+5. Construye tan alto como puedas en el *value stack*: dashboard → modelo → AI Functions →
    Genie Space → agente/app.
 
 > **Datos 100% sintéticos.** Contenido educativo para el Datathon Grupo Pichincha.

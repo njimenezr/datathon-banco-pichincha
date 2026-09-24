@@ -20,7 +20,8 @@
 
 - Tu equipo pertenece a **Banco Pichincha**.
 - Usa el **login compartido** que te dio el organizador para el workspace (trial) de Banco.
-- Ahí verás tu tabla en el catálogo, con los datos ya cargados:
+- **Carga tus datos:** sube este repo como **Git folder** y corre **`cargar_datos.py`** (crea tu
+  catálogo y tabla desde los Parquet de `datos/`). Tu tabla queda en:
 
 | Empresa | Tu tabla |
 |---|---|
